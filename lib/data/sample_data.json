@@ -1,0 +1,18 @@
+
+    {
+        "status": "success",
+        "ride_id": 12345,
+        "driver": {
+          "id": 1,
+          "name": "John Doe",
+          "car_model": "Toyota Prius",
+          "rating": 4.8,
+          "location": {
+            "latitude": 37.7749,
+            "longitude": -122.4194
+          }
+        },
+        "estimated_arrival_time": "5 minutes"
+    }
+
+  

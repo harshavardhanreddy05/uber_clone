@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "car_model": "Toyota Prius",
+      "rating": 4.8,
+      "location": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      }
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "car_model": "Honda Civic",
+      "rating": 4.6,
+      "location": {
+        "latitude": 37.7750,
+        "longitude": -122.4183
+      }
+    },
+    {
+      "id": 3,
+      "name": "Mike Johnson",
+      "car_model": "Ford Fusion",
+      "rating": 4.7,
+      "location": {
+        "latitude": 37.7751,
+        "longitude": -122.4172
+      }
+    }
+]
+  
