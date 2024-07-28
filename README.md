@@ -1,6 +1,6 @@
 # uber_clone
 
-This is a simplified Uber Clone app built using Flutter. The app provides basic functionalities such as user registration and login,viewing the user's current location, searching for destinations, displaying nearby drivers, and requesting a ride. 
+ This is a simplified Uber Clone app built using Flutter. The app provides basic functionalities such as user registration and login,viewing the user's current location, searching for destinations, displaying nearby drivers, and requesting a ride. 
 
 
 ## Backend Integration
@@ -26,13 +26,13 @@ This is a simplified Uber Clone app built using Flutter. The app provides basic 
    cd uber_clone
 
 2.  **Install dependencies:**:
-    flutter pub get
+     flutter pub get
 3.  **Set up Firebase:**
-    - Create a Firebase project in the Firebase Console.
-    - Add your Android and iOS apps to the Firebase project
-    - Download the google-services.json file for Android and place it in the android/app directory.
-    - Ensure that your pubspec.yaml includes the required Firebase dependencies.
-    dependencies:
+- Create a Firebase project in the Firebase Console.
+- Add your Android and iOS apps to the Firebase project
+- Download the google-services.json file for Android and place it in the android/app directory.
+- Ensure that your pubspec.yaml includes the required Firebase dependencies.
+    - dependencies:
        firebase_core: latest_version
        firebase_auth: latest_version
 
@@ -44,6 +44,7 @@ This is a simplified Uber Clone app built using Flutter. The app provides basic 
 1. **User Authentication:**
 
    - Sign up or log in using the provided form.
+
 2. **Home Screen:**
 
   - View the current location on the map.
@@ -52,11 +53,11 @@ This is a simplified Uber Clone app built using Flutter. The app provides basic 
 - Click the button to request a ride.
 3. **Request a Ride:**
 
-   -Simulate the ride request and view the details of the request including driver information and estimated arrival time.
+   - Simulate the ride request and view the details of the request including driver information and estimated arrival time.
 ## Backend Integration
-   -This project integrates with a fully-functional backend service to provide real-time data and seamless user interactions. The backend handles user authentication, driver availability, ride requests, and other core functionalities, offering a comprehensive and realistic ride-sharing experience.
+   - This project integrates with a fully-functional backend service to provide real-time data and seamless user interactions. The backend handles user authentication, driver availability, ride requests, and other core functionalities, offering a comprehensive and realistic ride-sharing experience.
 ## Error Handling
-   -The app includes basic error handling for network issues and other potential errors during user authentication and data fetching.
+   - The app includes basic error handling for network issues and other potential errors during user authentication and data fetching.
 
 
 
